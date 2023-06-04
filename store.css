@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: darkolivegreen;
+    background-color: rgb(132, 129, 124);
     min-height: 200vh;
 }
 header{
@@ -69,8 +69,6 @@ header ul li a:hover{
     background-image: url(back.jpg);
     background-size: cover;
 }
-.foot{
-    width: 100%;
-    background-color: rgb(20, 53, 53);
-    height: 2cm;
+#store{
+    font-size: small;
 }
