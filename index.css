@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: darkolivegreen;
@@ -65,7 +66,7 @@ header ul li a:hover{
 .banner{
     position: relative;
     width: 100%;
-    height: 200vh;
+    height: 100cm;
     background-image: url(back.jpg);
     background-size: cover;
 }
@@ -73,4 +74,60 @@ header ul li a:hover{
     width: 100%;
     background-color: rgb(20, 53, 53);
     height: 2cm;
+}
+.about{
+    display: flex;
+    padding: 45px 30px;
+    height: 12%;
+    width: 100%;
+    background-color: azure;
+    position: absolute;
+    top: 20%;
+    justify-content: space-evenly;
+}
+.first:hover{
+    width: 80%;
+    transition: 0.7s;
+}
+.second:hover{
+    width: 80%;
+    transition: 0.7s;
+}
+.third:hover{
+    width: 80%;
+    transition: 0.7s;
+}
+#about-logo{
+    margin-top: .2cm;
+    font-family: geologica;
+    font-size: xx-large;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+}
+
+.first{
+    background-color: antiquewhite;
+    width: 28%;
+    height: 80%;
+    background-image: url(about-back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.second{
+    background-color: antiquewhite;
+    width: 28%;
+    height: 80%;
+    background-image: url(green.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.third{
+    background-color: antiquewhite;
+    width: 28%;
+    height: 80%;
+    background-image: url(blue.jpg);
+    background-position: center;
+    background-size: cover;
 }
