@@ -103,10 +103,6 @@ header ul li a:hover{
     font-size: xx-large;
     text-align: center;
 }
-.boxes{
-    display: flex;
-}
-
 .first{
     background-color: antiquewhite;
     width: 28%;
@@ -130,4 +126,12 @@ header ul li a:hover{
     background-image: url(blue.jpg);
     background-position: center;
     background-size: cover;
+}
+@media (width<500px) {
+    .about{
+        display: block;
+    }
+    .first{
+        width: 80%;
+    }
 }
